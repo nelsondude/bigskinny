@@ -7,3 +7,4 @@ export { default as ItemDetail } from "./ItemDetail";
 export { default as ItemList } from "./ItemList";
 export { default as Locations } from "./Locations";
 export { default as ShoppingCart } from "./ShoppingCart";
+export { default as NavbarPage } from './Navbar';
