@@ -1,0 +1,46 @@
+.ItemList {
+  img {
+    width: 100%;
+    transition: all .2s;
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+      & + .quickview {
+        bottom: 0;
+      }
+    }
+  }
+  .quickview {
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    transition: all .2s;
+    &:hover {
+      bottom: 0;
+    }
+    height: 40px;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+
+  .item-image {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .checked {
+    color: orange;
+  }
+  .item {
+  }
+  a {
+    display: block;
+  }
+  #item-list-title {
+    text-align: center;
+  }
+}
