@@ -31,6 +31,7 @@ export default (props)  => {
         <Media>
           <Col>
           <Image
+            // style={{verticalAlign:"middle", display:"inline-block"}}
             // width={64}
             // height={64}
             className="mr-3"
