@@ -25,7 +25,7 @@ function App() {
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/shopping_cart" component={ShoppingCart}/>
-          <Route path="/item_list" component={ItemList}/>
+          <Route path="/wallets" component={ItemList}/>
           <Route path="/item_detail" component={ItemDetail}/>
           <Route path="/locations" component={Locations}/>
           <Route path="/how_its_made" component={HowItsMade}/>
