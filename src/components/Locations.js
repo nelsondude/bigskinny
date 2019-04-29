@@ -77,11 +77,6 @@ export default (props)  => {
           </Row>
         <br/>
         <br/>
-        <ListGroup.Item style={page_styling}>
-        <br/>
-        </ListGroup.Item>
-
-
     </ListGroup>
     </Fragment>
   )

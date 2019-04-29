@@ -15,9 +15,9 @@ String.prototype.toProperCase = function () {
 export default () => {
   const links = ['about', 'contact', 'faq', 'how_its_made', 'item_detail', 'item_list', 'locations', 'shopping_cart'];
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <LinkContainer to="/">
-        <Navbar.Brand>Big Skinny</Navbar.Brand>
+        <Navbar.Brand><img src={process.env.PUBLIC_URL + '/images/skinny.png'} style={{width: '100px'}} alt=""/></Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

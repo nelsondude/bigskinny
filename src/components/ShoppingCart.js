@@ -86,7 +86,7 @@ export default (props)  => {
     <div>
       <h1>Shopping Cart</h1>
     </div>
-    <Table bordered hover>
+    <Table bordered hover style={{background: 'white'}}>
     <thead>
       <tr>
         <th>Item</th>

@@ -14,6 +14,7 @@ import {
   NavbarPage
 } from './components';
 import Container from "react-bootstrap/Container";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/" component={Home}/>
         </Switch>
       </Container>
+      <Footer/>
     </div>
   );
 }

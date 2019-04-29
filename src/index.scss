@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: black;
+  color: white;
 }
 
 code {
@@ -20,4 +22,29 @@ code {
 
 input[type=number]::-webkit-inner-spin-button {
   opacity: 1;
+}
+
+h1::after {
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: red;
+  border-radius: 10px;
+  animation: sizeup .6s;
+  //position: relative;
+  //top: 5px;
+}
+
+@keyframes sizeup {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
+  }
+}
+
+.list-group-item {
+  color: black;
 }

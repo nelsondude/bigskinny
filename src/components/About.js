@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default (props)  => {
   return (
-    <div>
+    <div style={{color: 'white'}}>
       <Header text={'About Us'}/>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus accumsan ipsum, et iaculis nisi dignissim vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut porttitor leo ligula, vel dignissim nisl mollis in. Sed elementum semper erat. In interdum, velit sit amet sodales congue, turpis diam efficitur justo, ut suscipit ex elit id ante. Aliquam vitae ultricies lacus. Suspendisse vulputate lectus a porta congue. Duis condimentum erat ac odio accumsan convallis. Morbi venenatis hendrerit odio in feugiat. Cras sed ultricies elit.

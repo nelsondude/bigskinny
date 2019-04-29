@@ -23,7 +23,7 @@ export default (props)  => {
         <Col sm={6}>
           <br/>
           <br/>
-          <h3>The Big Skinny Wallet</h3>
+          <h1>The Big Skinny Wallet</h1>
           <p>$12.00</p>
           <br/>
           <h3><strong>Free No Hassle USA Shipping, Returns &amp; Exchanges</strong></h3>

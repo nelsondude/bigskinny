@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 export default () => {
   return (
-    <Fragment>
-        <Jumbotron fluid>
-          <h1 className="text-center" style={{fontSize:"200px"}}>BigSkinny</h1>
+    <div style={{color: 'black'}}>
+        <Jumbotron style={{marginTop: '20px'}}>
+          <h1 style={{fontSize:"200px"}}>BigSkinny</h1>
         </Jumbotron>
         <Card className="text-center">
         <Card.Header>Big Skinny --> Skinny Wallets</Card.Header>
@@ -23,6 +23,6 @@ export default () => {
         If you're a jetsetter, we have passport holders and travel wallets that withstand all the beatings your luggage takes when hopping from plane to train to taxi. Our selection also includes flat wallets with money clips so you can keep your cash separate from your cards, and checkbook versions that keep everything (we mean everything) in place. Our superior design and durable material work together to help keep your wallet extremely thin, slim, small and flat. Our nylon flat wallets are completely vegan and vegetarian too! For those that want a leather wallet but want the durability of a sports wallet, we offer hybrid leather wallet models that feature top grain cowhide on the outside and our ultra-thin nylon micro-fiber on the inside doing all the work. We pride ourselves on our wide variety of skinny wallets for both men and women.
         </Card.Footer>
       </Card>
-    </Fragment>
+    </div>
   );
 }
